@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script></head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">TechForward 2024</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-Nav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" target="_self" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_self" href="about-us.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_self" href="schedule.html">Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_self" href="speakers.html">Speakers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_self" href="register.html">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_self" href="contact-us.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> 
+  <section class="container">
+    <header>Register for TechForward 2024</header>
+    <h4>Please fill out the form below to register for the event.</h4>
+    
+    <form action="#" class="form">
+    
+    <div class="input-box">
+        <label for="firstname"> Full Name: </label>
+        <input type="text" name="firstname" id="firstname" placeholder="Enter full name" />   
+    </div>
+
+    <div class="input-box">
+        <label for="email">Email Address: </label>
+        <input type="email" name="email" id="email" placeholder="Enter email" />   
+    </div>
+
+    <div class="input-box">
+        <label for="number">Phone Number: </label>
+        <input type="text" name="number" id="number" placeholder="Enter phone number" />   
+    </div>
+    
+    <div class="radio-box">
+        <h3> Attendance Type </h3>
+        <div class="radio-options">
+        <label type="radio" name="attendance" value="inperson"/> In person
+    </div>
+
+      <div class="radio-options">
+      <label type="radio" name="attendance" value="virtual"/> Virtual
+      </div>
+    </div>
+    
+    <div class="drop-box">
+    
+    <h3>Session Interest</h3>
+        <select title="Drop Down" name="Drop Down" >
+            <option value="value1">Technology Trends</option>
+            <option value="value2">Software Development</option>
+            <option value="value3">Cybersecurity  </option>
+            <option value="value4">Data Science</option>
+            <option value="value5">Cloud Computing</option>    
+        </select>
+    </div>
+
+    <div class="input-box">
+        <label for="number"> Number of Tickets: </label>
+        <input type="number" name="tickets" id="tickets" placeholder="How many tickets?" />   
+    </div>
+
+    <div class="input-box">
+        <label for="date">Arrival Date</label>
+        <input type="date" name="date" id="date"  />   
+    </div>
+
+    <div class="input-box">
+        <label for="information"> Additional Information </label>
+        <input type="textarea" row='1000' col='2000'  name="information" id="information" placeholder="Any additional information or requirements" />   
+    </div>
+    
+        <button type="Submit">Submit</button>
+    </form>
+
+      <footer>
+        <!--Pjesa e kodit te copyrightit-->
+        <div class="copyright">
+            <span class="left"> &copy; TechForward 2024 © All rights reserved.</span>
+         
+        </div>
+      </footer> 
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>   
+</body>
+</html>

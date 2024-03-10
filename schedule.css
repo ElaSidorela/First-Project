@@ -1,0 +1,62 @@
+.sch-heading h3{
+    text-align: center;
+    margin-top: 90px;
+    font-size: 40px;
+}
+
+.sch-heading p{
+    text-align: center;
+    font-weight: 400;
+}
+
+.table-box
+{
+    margin: 50px auto;
+    order: 1px solid black;
+}
+
+.table-row{
+    display: table;
+    width: 80%;
+    margin: 10px auto;
+    font-family: sans-serif;
+    background: transparent;
+    padding: 12px 0;
+    color: #555;
+    font-size: 13px;
+    border-bottom: solid rgb(97, 96, 96) 1px;
+}
+.table-head{
+    background: rgb(49, 49, 49);
+    box-shadow: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+}
+.table-head .table-cell{
+    border-right: none;
+}
+.table-cell{
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    padding: 4px 0;
+    vertical-align: middle;
+}
+.first-cell{
+    text-align: left;
+    padding-left: 10px;
+}
+.last-cell{
+    border-right: none;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+
+@media only screen and (max-width: 600px) {
+  .table-row {
+    font-size: 11px;
+  }
+}

@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+	background: #f1f1f1;
+}
+.navbar{
+    display: inline-flex;
+}
+.navbar .navleft{
+    display:flex;
+}
+
+
+.header .navbar{
+	color: rgb(17, 17, 17);
+	font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+	display: inline-flex;	
+}
+
+.navleft .logo{
+	padding: 20px 80px 20px 5px;
+    margin: 0px 10px 10px 10px;
+}
+
+.header .home{
+	color: rgb(136, 136, 136);
+	padding: 20px 55px 20px 5px;
+	transition: all 1s;
+}
+
+.header .services{
+	color: rgb(136, 136, 136);
+	padding: 20px 35px 20px 5px;
+}
+
+
+.header .features-btn{
+	color: rgb(136, 136, 136);
+	padding: 20px 35px 20px 5px;
+}
+
+
+.header .about{
+    color: rgb(136, 136, 136);
+    padding: 20px 35px 20px 5px;
+}
+
+.header .contact{
+	color: rgb(136, 136, 136);
+	padding: 20px 35px 20px 5px;
+}
+
+
+.header .login{
+	color: white;
+	padding: 20px 10px 20px 5px;
+}
+
+
+.header .signup{
+	padding: 10px 10px 10px 10px;
+	border: 1px solid white;
+	border-radius: 10px;
+
+	margin: 10px 10px 20px 10px;
+}
